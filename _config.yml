@@ -1,70 +1,87 @@
-baseurl: /jekyll_demo
-# 目录结构
-source:      .
+# Site settings
+title: "H"
+description: A Template for Jekyll
+
+# Files
+baseurl:
+pagesdir: pages
+assets:
+  libs: assets/libs
+  owner: assets/owner
+logo: logo.png
+discus_shortname: good fortune
+email: lmywretchedme@sina.com
+url: "http://barmbamos.github.io"
+search: true
+share: true
+comments: true
+
+# Read Time is a calculator tp provide post read-time based on word count. Usage is recommended.
+readtime: true
+
+# Specify the average Words per minute. If not defined, 180 will be used
+wpm: 200
+
+# Owner/author information
+owner:
+  name: name
+  avatar: avatar.jpg
+  # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
+  description: description
+
+# Social networking links used in footer. Update and remove as you like.
+twitter_username:
+facebook_username:
+github_username: BarmBamos
+deviantart_username:
+500px_username: BarmBamos
+flickr_username:
+instagram_username:
+
+# Internal nav
+nav:
+ writing: "root_url/writing/"
+ gallery: "root_url/gallery/"
+ about: "root_url/about/"
+
+
+# Server
 destination: ./_site
-plugins:     ./_plugins
-layouts:     ./_layouts
-data_source: ./_data
-collections: null
+port: 4000
 
-# 阅读处理
-safe:         false
-include:      [".htaccess"]
-exclude:      []
-keep_files:   [".git", ".svn"]
-encoding:     "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-# 内容过滤
-show_drafts: null
-limit_posts: 0
-future:      true
-unpublished: false
+#dependencies
+# Gems
+gems:
+  - jekyll-paginate
 
-# 插件
-whitelist: []
-gems:      []
 
-# 转换
-markdown:    kramdown
+# Build settings
 highlighter: rouge
-lsi:         false
-excerpt_separator: "\n\n"
-incremental: false
-
-# 服务器选项
-detach:  false
-port:    4000
-host:    127.0.0.1
-baseurl: "" # does not include hostname
-
-# 输出
-permalink:     date
-paginate_path: /page:num
-timezone:      null
-
-quiet:    false
-defaults: []
-
-# Markdown 处理器
-rdiscount:
-  extensions: []
-
-redcarpet:
-  extensions: []
-
+markdown: kramdown
 kramdown:
-  auto_ids:       true
-  footnote_nr:    1
-  entity_output:  as_char
-  toc_levels:     1..6
-  smart_quotes:   lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
+    extensions:
+     - Hard_wrap
+     - no_intra_emphasis
+     - strikethrough
+     - fenced_code_blocks
+     - autolink
+     - tables
+     - with_toc_data
+     - highlight
+     - footnotes
+    input: GFM
+sass:
+    style: :compressed
+paginate: 5
+paginate_path: "/writing/page:num/"
+permalink: "/writing/:title/"
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+slugify: "pretty"
 
-  coderay:
-    coderay_wrap:              div
-    coderay_line_numbers:      inline
-    coderay_line_number_start: 1
-    coderay_tab_width:         4
-    coderay_bold_every:        10
-    coderay_css:               style
+
+# Analytics and webmaster tools stuff goes here
+google_analytics:   UA-xxxxxxxx-x
+google_verify:
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
