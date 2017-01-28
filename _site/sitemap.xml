@@ -3,7 +3,7 @@
   
     
     <url>
-      <loc>./writing/markdown-cheatsheet/</loc>
+      <loc>/writing/markdown-cheatsheet/</loc>
       
         <lastmod>2015-11-25T20:00:00+08:00</lastmod>
       
@@ -18,7 +18,7 @@
   
     
     <url>
-      <loc>./writing/multiple-galleries/</loc>
+      <loc>/writing/multiple-galleries/</loc>
       
         <lastmod>2015-11-23T20:00:00+08:00</lastmod>
       
@@ -34,24 +34,9 @@
   
     
     <url>
-      <loc>./404.html</loc>
+      <loc>/404.html</loc>
       
-        <lastmod>2017-01-28T22:50:59+08:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>./writing/category/cat01/</loc>
-      
-        <lastmod>2017-01-28T22:50:59+08:00</lastmod>
+        <lastmod>2017-01-28T22:55:37+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -64,24 +49,9 @@
   
     
     <url>
-      <loc>./writing/category/cat02/</loc>
+      <loc>/writing/category/cat01/</loc>
       
-        <lastmod>2017-01-28T22:50:59+08:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>./writing/category/cat03/</loc>
-      
-        <lastmod>2017-01-28T22:50:59+08:00</lastmod>
+        <lastmod>2017-01-28T22:55:37+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -94,24 +64,9 @@
   
     
     <url>
-      <loc>./about/</loc>
+      <loc>/writing/category/cat02/</loc>
       
-        <lastmod>2017-01-28T22:50:59+08:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>./gallery/</loc>
-      
-        <lastmod>2017-01-28T22:50:59+08:00</lastmod>
+        <lastmod>2017-01-28T22:55:37+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -124,24 +79,9 @@
   
     
     <url>
-      <loc>./search/</loc>
+      <loc>/writing/category/cat03/</loc>
       
-        <lastmod>2017-01-28T22:50:59+08:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>./</loc>
-      
-        <lastmod>2017-01-28T22:50:59+08:00</lastmod>
+        <lastmod>2017-01-28T22:55:37+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -154,41 +94,9 @@
   
     
     <url>
-      <loc>./writing/</loc>
+      <loc>/about/</loc>
       
-        <lastmod>2017-01-28T22:50:59+08:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>./pages/search/search.json</loc>
-      
-        <lastmod>2017-01-28T22:50:59+08:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-  
-    
-    <url>
-      <loc>./writing/tag/tag-name-one/</loc>
-      
-        <lastmod>2017-01-28T22:50:59+08:00</lastmod>
+        <lastmod>2017-01-28T22:55:37+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -201,9 +109,101 @@
   
     
     <url>
-      <loc>./writing/tag/tag-name-two/</loc>
+      <loc>/gallery/</loc>
       
-        <lastmod>2017-01-28T22:50:59+08:00</lastmod>
+        <lastmod>2017-01-28T22:55:37+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/search/</loc>
+      
+        <lastmod>2017-01-28T22:55:37+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/</loc>
+      
+        <lastmod>2017-01-28T22:55:37+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/writing/</loc>
+      
+        <lastmod>2017-01-28T22:55:37+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/pages/search/search.json</loc>
+      
+        <lastmod>2017-01-28T22:55:37+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+  
+    
+    <url>
+      <loc>/writing/tag/tag-name-one/</loc>
+      
+        <lastmod>2017-01-28T22:55:37+08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/writing/tag/tag-name-two/</loc>
+      
+        <lastmod>2017-01-28T22:55:37+08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
